@@ -1,0 +1,4049 @@
+[
+  {
+    "persona_id": "persona_1_reference_case",
+    "client_name": "David & Sarah Miller (Section 2.3 Case Study)",
+    "client_profile": "Mid-career married couple evaluating rollover, annuity swap, and Roth conversion.",
+    "age": 50,
+    "retire_age": 60,
+    "total_portfolio_value": 700000,
+    "transition_friction": {
+      "pi": {
+        "cap_gains_tax": 8000.0,
+        "exit_surrender_fees": 2000.0,
+        "roth_conversion_tax": 58000.0,
+        "transaction_costs": 400.0,
+        "total_friction": 68400.0,
+        "friction_pct": 9.77,
+        "net_starting_capital": 631600.0
+      },
+      "opt": {
+        "cap_gains_tax": 3200.0,
+        "exit_surrender_fees": 0.0,
+        "roth_conversion_tax": 44000.0,
+        "transaction_costs": 125.0,
+        "total_friction": 47325.0,
+        "friction_pct": 6.76,
+        "net_starting_capital": 652675.0
+      }
+    },
+    "break_even_years": {
+      "pi": 6.9,
+      "opt": 53.9
+    },
+    "portfolio_metrics": {
+      "ci": {
+        "gross_cagr_10y": 0.08957142857142857,
+        "gross_cagr_1y": 0.13749999999999998,
+        "gross_cagr_3y": 0.06742857142857142,
+        "gross_cagr_5y": 0.09571428571428571,
+        "volatility": 0.10864285714285715,
+        "expense_ratio": 0.007678571428571429,
+        "advisory_fee": 0.0,
+        "total_fee_drag": 0.007678571428571429,
+        "net_cagr": 0.08189285714285714,
+        "sharpe_ratio": 0.37,
+        "sortino_ratio": 0.51,
+        "max_drawdown": -0.158,
+        "beta": 0.49,
+        "var_95": 0.097,
+        "cvar_95": 0.142
+      },
+      "pi": {
+        "gross_cagr_10y": 0.10921428571428572,
+        "gross_cagr_1y": 0.18678571428571428,
+        "gross_cagr_3y": 0.07278571428571429,
+        "gross_cagr_5y": 0.115,
+        "volatility": 0.12864285714285714,
+        "expense_ratio": 0.009357142857142857,
+        "advisory_fee": 0.0017857142857142857,
+        "total_fee_drag": 0.011142857142857144,
+        "net_cagr": 0.09807142857142857,
+        "sharpe_ratio": 0.44,
+        "sortino_ratio": 0.61,
+        "max_drawdown": -0.189,
+        "beta": 0.58,
+        "var_95": 0.114,
+        "cvar_95": 0.167
+      },
+      "opt": {
+        "gross_cagr_10y": 0.08957142857142857,
+        "gross_cagr_1y": 0.13749999999999998,
+        "gross_cagr_3y": 0.06742857142857142,
+        "gross_cagr_5y": 0.09571428571428571,
+        "volatility": 0.10864285714285715,
+        "expense_ratio": 0.005414285714285714,
+        "advisory_fee": 0.000857142857142857,
+        "total_fee_drag": 0.006271428571428571,
+        "net_cagr": 0.0833,
+        "sharpe_ratio": 0.38,
+        "sortino_ratio": 0.53,
+        "max_drawdown": -0.158,
+        "beta": 0.49,
+        "var_95": 0.095,
+        "cvar_95": 0.141
+      }
+    },
+    "longevity_outcomes": {
+      "ci": {
+        "trajectory": [
+          {
+            "age": 50,
+            "wealth": 700000,
+            "is_retired": false
+          },
+          {
+            "age": 51,
+            "wealth": 757325.0,
+            "is_retired": false
+          },
+          {
+            "age": 52,
+            "wealth": 819345.0,
+            "is_retired": false
+          },
+          {
+            "age": 53,
+            "wealth": 886443.0,
+            "is_retired": false
+          },
+          {
+            "age": 54,
+            "wealth": 959036.0,
+            "is_retired": false
+          },
+          {
+            "age": 55,
+            "wealth": 1037575.0,
+            "is_retired": false
+          },
+          {
+            "age": 56,
+            "wealth": 1122544.0,
+            "is_retired": false
+          },
+          {
+            "age": 57,
+            "wealth": 1214473.0,
+            "is_retired": false
+          },
+          {
+            "age": 58,
+            "wealth": 1313930.0,
+            "is_retired": false
+          },
+          {
+            "age": 59,
+            "wealth": 1421531.0,
+            "is_retired": false
+          },
+          {
+            "age": 60,
+            "wealth": 1537944.0,
+            "is_retired": true
+          },
+          {
+            "age": 61,
+            "wealth": 1618891.0,
+            "is_retired": true
+          },
+          {
+            "age": 62,
+            "wealth": 1705122.0,
+            "is_retired": true
+          },
+          {
+            "age": 63,
+            "wealth": 1797034.0,
+            "is_retired": true
+          },
+          {
+            "age": 64,
+            "wealth": 1895052.0,
+            "is_retired": true
+          },
+          {
+            "age": 65,
+            "wealth": 1999638.0,
+            "is_retired": true
+          },
+          {
+            "age": 66,
+            "wealth": 2111287.0,
+            "is_retired": true
+          },
+          {
+            "age": 67,
+            "wealth": 2230536.0,
+            "is_retired": true
+          },
+          {
+            "age": 68,
+            "wealth": 2357965.0,
+            "is_retired": true
+          },
+          {
+            "age": 69,
+            "wealth": 2494198.0,
+            "is_retired": true
+          },
+          {
+            "age": 70,
+            "wealth": 2639912.0,
+            "is_retired": true
+          },
+          {
+            "age": 71,
+            "wealth": 2795836.0,
+            "is_retired": true
+          },
+          {
+            "age": 72,
+            "wealth": 2962757.0,
+            "is_retired": true
+          },
+          {
+            "age": 73,
+            "wealth": 3141527.0,
+            "is_retired": true
+          },
+          {
+            "age": 74,
+            "wealth": 3323189.0,
+            "is_retired": true
+          },
+          {
+            "age": 75,
+            "wealth": 3516823.0,
+            "is_retired": true
+          },
+          {
+            "age": 76,
+            "wealth": 3723282.0,
+            "is_retired": true
+          },
+          {
+            "age": 77,
+            "wealth": 3943438.0,
+            "is_retired": true
+          },
+          {
+            "age": 78,
+            "wealth": 4178274.0,
+            "is_retired": true
+          },
+          {
+            "age": 79,
+            "wealth": 4428716.0,
+            "is_retired": true
+          },
+          {
+            "age": 80,
+            "wealth": 4695794.0,
+            "is_retired": true
+          },
+          {
+            "age": 81,
+            "wealth": 4980592.0,
+            "is_retired": true
+          },
+          {
+            "age": 82,
+            "wealth": 5284357.0,
+            "is_retired": true
+          },
+          {
+            "age": 83,
+            "wealth": 5608190.0,
+            "is_retired": true
+          },
+          {
+            "age": 84,
+            "wealth": 5953474.0,
+            "is_retired": true
+          },
+          {
+            "age": 85,
+            "wealth": 6321373.0,
+            "is_retired": true
+          },
+          {
+            "age": 86,
+            "wealth": 6713401.0,
+            "is_retired": true
+          },
+          {
+            "age": 87,
+            "wealth": 7130971.0,
+            "is_retired": true
+          },
+          {
+            "age": 88,
+            "wealth": 7575523.0,
+            "is_retired": true
+          },
+          {
+            "age": 89,
+            "wealth": 8048836.0,
+            "is_retired": true
+          },
+          {
+            "age": 90,
+            "wealth": 8552084.0,
+            "is_retired": true
+          }
+        ],
+        "milestones": {
+          "60": 1537944.0,
+          "70": 2639912.0,
+          "80": 4695794.0,
+          "90": 8552084.0
+        },
+        "ending_wealth_age_90": 8552084.0,
+        "wealth_at_60": 1537944.0,
+        "wealth_at_70": 2639912.0,
+        "wealth_at_80": 4695794.0,
+        "is_exhausted": false
+      },
+      "pi": {
+        "trajectory": [
+          {
+            "age": 50,
+            "wealth": 631600.0,
+            "is_retired": false
+          },
+          {
+            "age": 51,
+            "wealth": 693542.0,
+            "is_retired": false
+          },
+          {
+            "age": 52,
+            "wealth": 761559.0,
+            "is_retired": false
+          },
+          {
+            "age": 53,
+            "wealth": 836246.0,
+            "is_retired": false
+          },
+          {
+            "age": 54,
+            "wealth": 918258.0,
+            "is_retired": false
+          },
+          {
+            "age": 55,
+            "wealth": 1008312.0,
+            "is_retired": false
+          },
+          {
+            "age": 56,
+            "wealth": 1107199.0,
+            "is_retired": false
+          },
+          {
+            "age": 57,
+            "wealth": 1215784.0,
+            "is_retired": false
+          },
+          {
+            "age": 58,
+            "wealth": 1335017.0,
+            "is_retired": false
+          },
+          {
+            "age": 59,
+            "wealth": 1465944.0,
+            "is_retired": false
+          },
+          {
+            "age": 60,
+            "wealth": 1609711.0,
+            "is_retired": true
+          },
+          {
+            "age": 61,
+            "wealth": 1722828.0,
+            "is_retired": true
+          },
+          {
+            "age": 62,
+            "wealth": 1845694.0,
+            "is_retired": true
+          },
+          {
+            "age": 63,
+            "wealth": 1979229.0,
+            "is_retired": true
+          },
+          {
+            "age": 64,
+            "wealth": 2124438.0,
+            "is_retired": true
+          },
+          {
+            "age": 65,
+            "wealth": 2282429.0,
+            "is_retired": true
+          },
+          {
+            "age": 66,
+            "wealth": 2454413.0,
+            "is_retired": true
+          },
+          {
+            "age": 67,
+            "wealth": 2641721.0,
+            "is_retired": true
+          },
+          {
+            "age": 68,
+            "wealth": 2845812.0,
+            "is_retired": true
+          },
+          {
+            "age": 69,
+            "wealth": 3068288.0,
+            "is_retired": true
+          },
+          {
+            "age": 70,
+            "wealth": 3310907.0,
+            "is_retired": true
+          },
+          {
+            "age": 71,
+            "wealth": 3575596.0,
+            "is_retired": true
+          },
+          {
+            "age": 72,
+            "wealth": 3864472.0,
+            "is_retired": true
+          },
+          {
+            "age": 73,
+            "wealth": 4179857.0,
+            "is_retired": true
+          },
+          {
+            "age": 74,
+            "wealth": 4524301.0,
+            "is_retired": true
+          },
+          {
+            "age": 75,
+            "wealth": 4900600.0,
+            "is_retired": true
+          },
+          {
+            "age": 76,
+            "wealth": 5311825.0,
+            "is_retired": true
+          },
+          {
+            "age": 77,
+            "wealth": 5761346.0,
+            "is_retired": true
+          },
+          {
+            "age": 78,
+            "wealth": 6252862.0,
+            "is_retired": true
+          },
+          {
+            "age": 79,
+            "wealth": 6790431.0,
+            "is_retired": true
+          },
+          {
+            "age": 80,
+            "wealth": 7378512.0,
+            "is_retired": true
+          },
+          {
+            "age": 81,
+            "wealth": 8021995.0,
+            "is_retired": true
+          },
+          {
+            "age": 82,
+            "wealth": 8726251.0,
+            "is_retired": true
+          },
+          {
+            "age": 83,
+            "wealth": 9497173.0,
+            "is_retired": true
+          },
+          {
+            "age": 84,
+            "wealth": 10341234.0,
+            "is_retired": true
+          },
+          {
+            "age": 85,
+            "wealth": 11265537.0,
+            "is_retired": true
+          },
+          {
+            "age": 86,
+            "wealth": 12277880.0,
+            "is_retired": true
+          },
+          {
+            "age": 87,
+            "wealth": 13386823.0,
+            "is_retired": true
+          },
+          {
+            "age": 88,
+            "wealth": 14601768.0,
+            "is_retired": true
+          },
+          {
+            "age": 89,
+            "wealth": 15933030.0,
+            "is_retired": true
+          },
+          {
+            "age": 90,
+            "wealth": 17391939.0,
+            "is_retired": true
+          }
+        ],
+        "milestones": {
+          "60": 1609711.0,
+          "70": 3310907.0,
+          "80": 7378512.0,
+          "90": 17391939.0
+        },
+        "ending_wealth_age_90": 17391939.0,
+        "wealth_at_60": 1609711.0,
+        "wealth_at_70": 3310907.0,
+        "wealth_at_80": 7378512.0,
+        "is_exhausted": false
+      },
+      "opt": {
+        "trajectory": [
+          {
+            "age": 50,
+            "wealth": 652675.0,
+            "is_retired": false
+          },
+          {
+            "age": 51,
+            "wealth": 707043.0,
+            "is_retired": false
+          },
+          {
+            "age": 52,
+            "wealth": 765939.0,
+            "is_retired": false
+          },
+          {
+            "age": 53,
+            "wealth": 829742.0,
+            "is_retired": false
+          },
+          {
+            "age": 54,
+            "wealth": 898860.0,
+            "is_retired": false
+          },
+          {
+            "age": 55,
+            "wealth": 973735.0,
+            "is_retired": false
+          },
+          {
+            "age": 56,
+            "wealth": 1054847.0,
+            "is_retired": false
+          },
+          {
+            "age": 57,
+            "wealth": 1142716.0,
+            "is_retired": false
+          },
+          {
+            "age": 58,
+            "wealth": 1237904.0,
+            "is_retired": false
+          },
+          {
+            "age": 59,
+            "wealth": 1341021.0,
+            "is_retired": false
+          },
+          {
+            "age": 60,
+            "wealth": 1452728.0,
+            "is_retired": true
+          },
+          {
+            "age": 61,
+            "wealth": 1528741.0,
+            "is_retired": true
+          },
+          {
+            "age": 62,
+            "wealth": 1609741.0,
+            "is_retired": true
+          },
+          {
+            "age": 63,
+            "wealth": 1696106.0,
+            "is_retired": true
+          },
+          {
+            "age": 64,
+            "wealth": 1788246.0,
+            "is_retired": true
+          },
+          {
+            "age": 65,
+            "wealth": 1886601.0,
+            "is_retired": true
+          },
+          {
+            "age": 66,
+            "wealth": 1991648.0,
+            "is_retired": true
+          },
+          {
+            "age": 67,
+            "wealth": 2103902.0,
+            "is_retired": true
+          },
+          {
+            "age": 68,
+            "wealth": 2223921.0,
+            "is_retired": true
+          },
+          {
+            "age": 69,
+            "wealth": 2352307.0,
+            "is_retired": true
+          },
+          {
+            "age": 70,
+            "wealth": 2489711.0,
+            "is_retired": true
+          },
+          {
+            "age": 71,
+            "wealth": 2636838.0,
+            "is_retired": true
+          },
+          {
+            "age": 72,
+            "wealth": 2794448.0,
+            "is_retired": true
+          },
+          {
+            "age": 73,
+            "wealth": 2963367.0,
+            "is_retired": true
+          },
+          {
+            "age": 74,
+            "wealth": 3144485.0,
+            "is_retired": true
+          },
+          {
+            "age": 75,
+            "wealth": 3338765.0,
+            "is_retired": true
+          },
+          {
+            "age": 76,
+            "wealth": 3547250.0,
+            "is_retired": true
+          },
+          {
+            "age": 77,
+            "wealth": 3771069.0,
+            "is_retired": true
+          },
+          {
+            "age": 78,
+            "wealth": 4011441.0,
+            "is_retired": true
+          },
+          {
+            "age": 79,
+            "wealth": 4269687.0,
+            "is_retired": true
+          },
+          {
+            "age": 80,
+            "wealth": 4547235.0,
+            "is_retired": true
+          },
+          {
+            "age": 81,
+            "wealth": 4845632.0,
+            "is_retired": true
+          },
+          {
+            "age": 82,
+            "wealth": 5166550.0,
+            "is_retired": true
+          },
+          {
+            "age": 83,
+            "wealth": 5511800.0,
+            "is_retired": true
+          },
+          {
+            "age": 84,
+            "wealth": 5883343.0,
+            "is_retired": true
+          },
+          {
+            "age": 85,
+            "wealth": 6283298.0,
+            "is_retired": true
+          },
+          {
+            "age": 86,
+            "wealth": 6713962.0,
+            "is_retired": true
+          },
+          {
+            "age": 87,
+            "wealth": 7177820.0,
+            "is_retired": true
+          },
+          {
+            "age": 88,
+            "wealth": 7677562.0,
+            "is_retired": true
+          },
+          {
+            "age": 89,
+            "wealth": 8216099.0,
+            "is_retired": true
+          },
+          {
+            "age": 90,
+            "wealth": 8796584.0,
+            "is_retired": true
+          }
+        ],
+        "milestones": {
+          "60": 1452728.0,
+          "70": 2489711.0,
+          "80": 4547235.0,
+          "90": 8796584.0
+        },
+        "ending_wealth_age_90": 8796584.0,
+        "wealth_at_60": 1452728.0,
+        "wealth_at_70": 2489711.0,
+        "wealth_at_80": 4547235.0,
+        "is_exhausted": false
+      }
+    },
+    "stress_regimes": {
+      "gfc_2008": {
+        "name": "2008 Great Financial Crisis",
+        "ci": {
+          "pct_change": -21.96,
+          "post_val": 546300.0,
+          "dollar_loss": -153700.0
+        },
+        "pi": {
+          "pct_change": -23.67,
+          "post_val": 482091.0,
+          "dollar_loss": -149509.0
+        },
+        "opt": {
+          "pct_change": -21.96,
+          "post_val": 509366.0,
+          "dollar_loss": -143309.0
+        }
+      },
+      "covid_2020": {
+        "name": "2020 COVID Market Crash",
+        "ci": {
+          "pct_change": -6.12,
+          "post_val": 657150.0,
+          "dollar_loss": -42850.0
+        },
+        "pi": {
+          "pct_change": -3.37,
+          "post_val": 610306.0,
+          "dollar_loss": -21294.0
+        },
+        "opt": {
+          "pct_change": -6.12,
+          "post_val": 612722.0,
+          "dollar_loss": -39953.0
+        }
+      },
+      "stagflation_2022": {
+        "name": "2022 Stagflation & Rate Shock",
+        "ci": {
+          "pct_change": -8.47,
+          "post_val": 640700.0,
+          "dollar_loss": -59300.0
+        },
+        "pi": {
+          "pct_change": -13.61,
+          "post_val": 545612.0,
+          "dollar_loss": -85988.0
+        },
+        "opt": {
+          "pct_change": -8.47,
+          "post_val": 597384.0,
+          "dollar_loss": -55291.0
+        }
+      }
+    },
+    "monte_carlo": {
+      "ci": {
+        "success_rate_pct": 92.1,
+        "p10_ending_wealth": 371020.0,
+        "median_ending_wealth": 6462529.0,
+        "p90_ending_wealth": 20069006.0
+      },
+      "pi": {
+        "success_rate_pct": 95.4,
+        "p10_ending_wealth": 1780992.0,
+        "median_ending_wealth": 11032516.0,
+        "p90_ending_wealth": 41519946.0
+      },
+      "opt": {
+        "success_rate_pct": 92.0,
+        "p10_ending_wealth": 388998.0,
+        "median_ending_wealth": 6270328.0,
+        "p90_ending_wealth": 19701098.0
+      }
+    },
+    "verdict": "Transition viable but requires tactical staging. Immediate friction is $68,400 with a 6.9 year break-even.",
+    "verdict_badge": "APPROVE_WITH_STAGING",
+    "rationale": [
+      "Net fee reduction and asset upside justify transition provided tax-loss harvesting is applied."
+    ]
+  },
+  {
+    "persona_id": "persona_2_aggressive_growth",
+    "client_name": "Marcus Vance (Aggressive Growth Tech Accumulator)",
+    "client_profile": "Age 32 Silicon Valley VP with $450k concentrated tech & crypto, 33% CA tax bracket.",
+    "age": 32,
+    "retire_age": 55,
+    "total_portfolio_value": 450000,
+    "transition_friction": {
+      "pi": {
+        "cap_gains_tax": 75870.0,
+        "exit_surrender_fees": 0.0,
+        "roth_conversion_tax": 0.0,
+        "transaction_costs": 800.0,
+        "total_friction": 76670.0,
+        "friction_pct": 17.04,
+        "net_starting_capital": 373330.0
+      },
+      "opt": {
+        "cap_gains_tax": 21356.0,
+        "exit_surrender_fees": 0.0,
+        "roth_conversion_tax": 0.0,
+        "transaction_costs": 140.0,
+        "total_friction": 21496.0,
+        "friction_pct": 4.78,
+        "net_starting_capital": 428504.0
+      }
+    },
+    "break_even_years": {
+      "pi": "> 30 Years",
+      "opt": 0.8
+    },
+    "portfolio_metrics": {
+      "ci": {
+        "gross_cagr_10y": 0.2449111111111111,
+        "gross_cagr_1y": 0.5768,
+        "gross_cagr_3y": 0.1156888888888889,
+        "gross_cagr_5y": 0.2225111111111111,
+        "volatility": 0.3034222222222222,
+        "expense_ratio": 0.0,
+        "advisory_fee": 0.0,
+        "total_fee_drag": 0.0,
+        "net_cagr": 0.2449111111111111,
+        "sharpe_ratio": 0.67,
+        "sortino_ratio": 0.93,
+        "max_drawdown": -0.398,
+        "beta": 1.34,
+        "var_95": 0.254,
+        "cvar_95": 0.38
+      },
+      "pi": {
+        "gross_cagr_10y": 0.182,
+        "gross_cagr_1y": 0.382,
+        "gross_cagr_3y": 0.112,
+        "gross_cagr_5y": 0.198,
+        "volatility": 0.208,
+        "expense_ratio": 0.0125,
+        "advisory_fee": 0.01,
+        "total_fee_drag": 0.0225,
+        "net_cagr": 0.1595,
+        "sharpe_ratio": 0.56,
+        "sortino_ratio": 0.78,
+        "max_drawdown": -0.326,
+        "beta": 1.25,
+        "var_95": 0.183,
+        "cvar_95": 0.269
+      },
+      "opt": {
+        "gross_cagr_10y": 0.2113111111111111,
+        "gross_cagr_1y": 0.4915555555555555,
+        "gross_cagr_3y": 0.10697777777777778,
+        "gross_cagr_5y": 0.18953333333333333,
+        "volatility": 0.26857777777777775,
+        "expense_ratio": 0.0013000000000000002,
+        "advisory_fee": 0.0015555555555555557,
+        "total_fee_drag": 0.0028555555555555556,
+        "net_cagr": 0.20845555555555553,
+        "sharpe_ratio": 0.62,
+        "sortino_ratio": 0.86,
+        "max_drawdown": -0.343,
+        "beta": 1.18,
+        "var_95": 0.233,
+        "cvar_95": 0.345
+      }
+    },
+    "longevity_outcomes": {
+      "ci": {
+        "trajectory": [
+          {
+            "age": 32,
+            "wealth": 450000,
+            "is_retired": false
+          },
+          {
+            "age": 33,
+            "wealth": 560210.0,
+            "is_retired": false
+          },
+          {
+            "age": 34,
+            "wealth": 697412.0,
+            "is_retired": false
+          },
+          {
+            "age": 35,
+            "wealth": 868216.0,
+            "is_retired": false
+          },
+          {
+            "age": 36,
+            "wealth": 1080851.0,
+            "is_retired": false
+          },
+          {
+            "age": 37,
+            "wealth": 1345564.0,
+            "is_retired": false
+          },
+          {
+            "age": 38,
+            "wealth": 1675107.0,
+            "is_retired": false
+          },
+          {
+            "age": 39,
+            "wealth": 2085359.0,
+            "is_retired": false
+          },
+          {
+            "age": 40,
+            "wealth": 2596087.0,
+            "is_retired": false
+          },
+          {
+            "age": 41,
+            "wealth": 3231898.0,
+            "is_retired": false
+          },
+          {
+            "age": 42,
+            "wealth": 4023425.0,
+            "is_retired": false
+          },
+          {
+            "age": 43,
+            "wealth": 5008807.0,
+            "is_retired": false
+          },
+          {
+            "age": 44,
+            "wealth": 6235519.0,
+            "is_retired": false
+          },
+          {
+            "age": 45,
+            "wealth": 7762667.0,
+            "is_retired": false
+          },
+          {
+            "age": 46,
+            "wealth": 9663831.0,
+            "is_retired": false
+          },
+          {
+            "age": 47,
+            "wealth": 12030610.0,
+            "is_retired": false
+          },
+          {
+            "age": 48,
+            "wealth": 14977040.0,
+            "is_retired": false
+          },
+          {
+            "age": 49,
+            "wealth": 18645084.0,
+            "is_retired": false
+          },
+          {
+            "age": 50,
+            "wealth": 23211472.0,
+            "is_retired": false
+          },
+          {
+            "age": 51,
+            "wealth": 28896220.0,
+            "is_retired": false
+          },
+          {
+            "age": 52,
+            "wealth": 35973225.0,
+            "is_retired": false
+          },
+          {
+            "age": 53,
+            "wealth": 44783468.0,
+            "is_retired": false
+          },
+          {
+            "age": 54,
+            "wealth": 55751437.0,
+            "is_retired": false
+          },
+          {
+            "age": 55,
+            "wealth": 69405583.0,
+            "is_retired": true
+          },
+          {
+            "age": 56,
+            "wealth": 86346781.0,
+            "is_retired": true
+          },
+          {
+            "age": 57,
+            "wealth": 107435567.0,
+            "is_retired": true
+          },
+          {
+            "age": 58,
+            "wealth": 133687694.0,
+            "is_retired": true
+          },
+          {
+            "age": 59,
+            "wealth": 166367682.0,
+            "is_retired": true
+          },
+          {
+            "age": 60,
+            "wealth": 207049748.0,
+            "is_retired": true
+          },
+          {
+            "age": 61,
+            "wealth": 257693647.0,
+            "is_retired": true
+          },
+          {
+            "age": 62,
+            "wealth": 320739103.0,
+            "is_retired": true
+          },
+          {
+            "age": 63,
+            "wealth": 399223351.0,
+            "is_retired": true
+          },
+          {
+            "age": 64,
+            "wealth": 496927482.0,
+            "is_retired": true
+          },
+          {
+            "age": 65,
+            "wealth": 618558612.0,
+            "is_retired": true
+          },
+          {
+            "age": 66,
+            "wealth": 769976684.0,
+            "is_retired": true
+          },
+          {
+            "age": 67,
+            "wealth": 958476804.0,
+            "is_retired": true
+          },
+          {
+            "age": 68,
+            "wealth": 1193140729.0,
+            "is_retired": true
+          },
+          {
+            "age": 69,
+            "wealth": 1485274440.0,
+            "is_retired": true
+          },
+          {
+            "age": 70,
+            "wealth": 1848952875.0,
+            "is_retired": true
+          },
+          {
+            "age": 71,
+            "wealth": 2301698080.0,
+            "is_retired": true
+          },
+          {
+            "age": 72,
+            "wealth": 2865323444.0,
+            "is_retired": true
+          },
+          {
+            "age": 73,
+            "wealth": 3566984696.0,
+            "is_retired": true
+          },
+          {
+            "age": 74,
+            "wealth": 4427585487.0,
+            "is_retired": true
+          },
+          {
+            "age": 75,
+            "wealth": 5495213521.0,
+            "is_retired": true
+          },
+          {
+            "age": 76,
+            "wealth": 6819544003.0,
+            "is_retired": true
+          },
+          {
+            "age": 77,
+            "wealth": 8462045673.0,
+            "is_retired": true
+          },
+          {
+            "age": 78,
+            "wealth": 10498972723.0,
+            "is_retired": true
+          },
+          {
+            "age": 79,
+            "wealth": 13024438915.0,
+            "is_retired": true
+          },
+          {
+            "age": 80,
+            "wealth": 16154992643.0,
+            "is_retired": true
+          },
+          {
+            "age": 81,
+            "wealth": 20034758843.0,
+            "is_retired": true
+          },
+          {
+            "age": 82,
+            "wealth": 24842388285.0,
+            "is_retired": true
+          },
+          {
+            "age": 83,
+            "wealth": 30797729955.0,
+            "is_retired": true
+          },
+          {
+            "age": 84,
+            "wealth": 38173527700.0,
+            "is_retired": true
+          },
+          {
+            "age": 85,
+            "wealth": 47304716859.0,
+            "is_retired": true
+          },
+          {
+            "age": 86,
+            "wealth": 58606635840.0,
+            "is_retired": true
+          },
+          {
+            "age": 87,
+            "wealth": 72590325878.0,
+            "is_retired": true
+          },
+          {
+            "age": 88,
+            "wealth": 89885153551.0,
+            "is_retired": true
+          },
+          {
+            "age": 89,
+            "wealth": 111269972313.0,
+            "is_retired": true
+          },
+          {
+            "age": 90,
+            "wealth": 137694256829.0,
+            "is_retired": true
+          }
+        ],
+        "milestones": {
+          "60": 207049748.0,
+          "70": 1848952875.0,
+          "80": 16154992643.0,
+          "90": 137694256829.0
+        },
+        "ending_wealth_age_90": 137694256829.0,
+        "wealth_at_60": 207049748.0,
+        "wealth_at_70": 1848952875.0,
+        "wealth_at_80": 16154992643.0,
+        "is_exhausted": false
+      },
+      "pi": {
+        "trajectory": [
+          {
+            "age": 32,
+            "wealth": 373330.0,
+            "is_retired": false
+          },
+          {
+            "age": 33,
+            "wealth": 432876.0,
+            "is_retired": false
+          },
+          {
+            "age": 34,
+            "wealth": 501920.0,
+            "is_retired": false
+          },
+          {
+            "age": 35,
+            "wealth": 581976.0,
+            "is_retired": false
+          },
+          {
+            "age": 36,
+            "wealth": 674801.0,
+            "is_retired": false
+          },
+          {
+            "age": 37,
+            "wealth": 782432.0,
+            "is_retired": false
+          },
+          {
+            "age": 38,
+            "wealth": 907230.0,
+            "is_retired": false
+          },
+          {
+            "age": 39,
+            "wealth": 1051933.0,
+            "is_retired": false
+          },
+          {
+            "age": 40,
+            "wealth": 1219717.0,
+            "is_retired": false
+          },
+          {
+            "age": 41,
+            "wealth": 1414261.0,
+            "is_retired": false
+          },
+          {
+            "age": 42,
+            "wealth": 1639836.0,
+            "is_retired": false
+          },
+          {
+            "age": 43,
+            "wealth": 1901390.0,
+            "is_retired": false
+          },
+          {
+            "age": 44,
+            "wealth": 2204662.0,
+            "is_retired": false
+          },
+          {
+            "age": 45,
+            "wealth": 2556305.0,
+            "is_retired": false
+          },
+          {
+            "age": 46,
+            "wealth": 2964036.0,
+            "is_retired": false
+          },
+          {
+            "age": 47,
+            "wealth": 3436799.0,
+            "is_retired": false
+          },
+          {
+            "age": 48,
+            "wealth": 3984969.0,
+            "is_retired": false
+          },
+          {
+            "age": 49,
+            "wealth": 4620571.0,
+            "is_retired": false
+          },
+          {
+            "age": 50,
+            "wealth": 5357553.0,
+            "is_retired": false
+          },
+          {
+            "age": 51,
+            "wealth": 6212082.0,
+            "is_retired": false
+          },
+          {
+            "age": 52,
+            "wealth": 7202909.0,
+            "is_retired": false
+          },
+          {
+            "age": 53,
+            "wealth": 8351773.0,
+            "is_retired": false
+          },
+          {
+            "age": 54,
+            "wealth": 9683881.0,
+            "is_retired": false
+          },
+          {
+            "age": 55,
+            "wealth": 11228460.0,
+            "is_retired": true
+          },
+          {
+            "age": 56,
+            "wealth": 12962650.0,
+            "is_retired": true
+          },
+          {
+            "age": 57,
+            "wealth": 14971942.0,
+            "is_retired": true
+          },
+          {
+            "age": 58,
+            "wealth": 17300180.0,
+            "is_retired": true
+          },
+          {
+            "age": 59,
+            "wealth": 19998195.0,
+            "is_retired": true
+          },
+          {
+            "age": 60,
+            "wealth": 23124928.0,
+            "is_retired": true
+          },
+          {
+            "age": 61,
+            "wealth": 26748720.0,
+            "is_retired": true
+          },
+          {
+            "age": 62,
+            "wealth": 30948809.0,
+            "is_retired": true
+          },
+          {
+            "age": 63,
+            "wealth": 35817073.0,
+            "is_retired": true
+          },
+          {
+            "age": 64,
+            "wealth": 41460042.0,
+            "is_retired": true
+          },
+          {
+            "age": 65,
+            "wealth": 48001237.0,
+            "is_retired": true
+          },
+          {
+            "age": 66,
+            "wealth": 55583879.0,
+            "is_retired": true
+          },
+          {
+            "age": 67,
+            "wealth": 64374032.0,
+            "is_retired": true
+          },
+          {
+            "age": 68,
+            "wealth": 74564247.0,
+            "is_retired": true
+          },
+          {
+            "age": 69,
+            "wealth": 86377784.0,
+            "is_retired": true
+          },
+          {
+            "age": 70,
+            "wealth": 100073512.0,
+            "is_retired": true
+          },
+          {
+            "age": 71,
+            "wealth": 115951589.0,
+            "is_retired": true
+          },
+          {
+            "age": 72,
+            "wealth": 134360048.0,
+            "is_retired": true
+          },
+          {
+            "age": 73,
+            "wealth": 155702428.0,
+            "is_retired": true
+          },
+          {
+            "age": 74,
+            "wealth": 180446636.0,
+            "is_retired": true
+          },
+          {
+            "age": 75,
+            "wealth": 209135205.0,
+            "is_retired": true
+          },
+          {
+            "age": 76,
+            "wealth": 242397203.0,
+            "is_retired": true
+          },
+          {
+            "age": 77,
+            "wealth": 280962033.0,
+            "is_retired": true
+          },
+          {
+            "age": 78,
+            "wealth": 325675432.0,
+            "is_retired": true
+          },
+          {
+            "age": 79,
+            "wealth": 377518037.0,
+            "is_retired": true
+          },
+          {
+            "age": 80,
+            "wealth": 437626891.0,
+            "is_retired": true
+          },
+          {
+            "age": 81,
+            "wealth": 507320393.0,
+            "is_retired": true
+          },
+          {
+            "age": 82,
+            "wealth": 588127228.0,
+            "is_retired": true
+          },
+          {
+            "age": 83,
+            "wealth": 681819903.0,
+            "is_retired": true
+          },
+          {
+            "age": 84,
+            "wealth": 790453638.0,
+            "is_retired": true
+          },
+          {
+            "age": 85,
+            "wealth": 916411459.0,
+            "is_retired": true
+          },
+          {
+            "age": 86,
+            "wealth": 1062456482.0,
+            "is_retired": true
+          },
+          {
+            "age": 87,
+            "wealth": 1231792541.0,
+            "is_retired": true
+          },
+          {
+            "age": 88,
+            "wealth": 1428134476.0,
+            "is_retired": true
+          },
+          {
+            "age": 89,
+            "wealth": 1655789643.0,
+            "is_retired": true
+          },
+          {
+            "age": 90,
+            "wealth": 1919752422.0,
+            "is_retired": true
+          }
+        ],
+        "milestones": {
+          "60": 23124928.0,
+          "70": 100073512.0,
+          "80": 437626891.0,
+          "90": 1919752422.0
+        },
+        "ending_wealth_age_90": 1919752422.0,
+        "wealth_at_60": 23124928.0,
+        "wealth_at_70": 100073512.0,
+        "wealth_at_80": 437626891.0,
+        "is_exhausted": false
+      },
+      "opt": {
+        "trajectory": [
+          {
+            "age": 32,
+            "wealth": 428504.0,
+            "is_retired": false
+          },
+          {
+            "age": 33,
+            "wealth": 517828.0,
+            "is_retired": false
+          },
+          {
+            "age": 34,
+            "wealth": 625772.0,
+            "is_retired": false
+          },
+          {
+            "age": 35,
+            "wealth": 756218.0,
+            "is_retired": false
+          },
+          {
+            "age": 36,
+            "wealth": 913856.0,
+            "is_retired": false
+          },
+          {
+            "age": 37,
+            "wealth": 1104354.0,
+            "is_retired": false
+          },
+          {
+            "age": 38,
+            "wealth": 1334563.0,
+            "is_retired": false
+          },
+          {
+            "age": 39,
+            "wealth": 1612760.0,
+            "is_retired": false
+          },
+          {
+            "age": 40,
+            "wealth": 1948948.0,
+            "is_retired": false
+          },
+          {
+            "age": 41,
+            "wealth": 2355218.0,
+            "is_retired": false
+          },
+          {
+            "age": 42,
+            "wealth": 2846176.0,
+            "is_retired": false
+          },
+          {
+            "age": 43,
+            "wealth": 3439477.0,
+            "is_retired": false
+          },
+          {
+            "age": 44,
+            "wealth": 4156455.0,
+            "is_retired": false
+          },
+          {
+            "age": 45,
+            "wealth": 5022891.0,
+            "is_retired": false
+          },
+          {
+            "age": 46,
+            "wealth": 6069941.0,
+            "is_retired": false
+          },
+          {
+            "age": 47,
+            "wealth": 7335253.0,
+            "is_retired": false
+          },
+          {
+            "age": 48,
+            "wealth": 8864328.0,
+            "is_retired": false
+          },
+          {
+            "age": 49,
+            "wealth": 10712146.0,
+            "is_retired": false
+          },
+          {
+            "age": 50,
+            "wealth": 12945152.0,
+            "is_retired": false
+          },
+          {
+            "age": 51,
+            "wealth": 15643641.0,
+            "is_retired": false
+          },
+          {
+            "age": 52,
+            "wealth": 18904645.0,
+            "is_retired": false
+          },
+          {
+            "age": 53,
+            "wealth": 22845424.0,
+            "is_retired": false
+          },
+          {
+            "age": 54,
+            "wealth": 27607679.0,
+            "is_retired": false
+          },
+          {
+            "age": 55,
+            "wealth": 33362653.0,
+            "is_retired": true
+          },
+          {
+            "age": 56,
+            "wealth": 40260284.0,
+            "is_retired": true
+          },
+          {
+            "age": 57,
+            "wealth": 48594263.0,
+            "is_retired": true
+          },
+          {
+            "age": 58,
+            "wealth": 58663970.0,
+            "is_retired": true
+          },
+          {
+            "age": 59,
+            "wealth": 70831187.0,
+            "is_retired": true
+          },
+          {
+            "age": 60,
+            "wealth": 85533113.0,
+            "is_retired": true
+          },
+          {
+            "age": 61,
+            "wealth": 103298081.0,
+            "is_retired": true
+          },
+          {
+            "age": 62,
+            "wealth": 124764558.0,
+            "is_retired": true
+          },
+          {
+            "age": 63,
+            "wealth": 150704102.0,
+            "is_retired": true
+          },
+          {
+            "age": 64,
+            "wealth": 182049105.0,
+            "is_retired": true
+          },
+          {
+            "age": 65,
+            "wealth": 219926321.0,
+            "is_retired": true
+          },
+          {
+            "age": 66,
+            "wealth": 265697379.0,
+            "is_retired": true
+          },
+          {
+            "age": 67,
+            "wealth": 321007748.0,
+            "is_retired": true
+          },
+          {
+            "age": 68,
+            "wealth": 387845903.0,
+            "is_retired": true
+          },
+          {
+            "age": 69,
+            "wealth": 468614826.0,
+            "is_retired": true
+          },
+          {
+            "age": 70,
+            "wealth": 566218412.0,
+            "is_retired": true
+          },
+          {
+            "age": 71,
+            "wealth": 684165887.0,
+            "is_retired": true
+          },
+          {
+            "age": 72,
+            "wealth": 826697997.0,
+            "is_retired": true
+          },
+          {
+            "age": 73,
+            "wealth": 998939490.0,
+            "is_retired": true
+          },
+          {
+            "age": 74,
+            "wealth": 1207083397.0,
+            "is_retired": true
+          },
+          {
+            "age": 75,
+            "wealth": 1458613718.0,
+            "is_retired": true
+          },
+          {
+            "age": 76,
+            "wealth": 1762574534.0,
+            "is_retired": true
+          },
+          {
+            "age": 77,
+            "wealth": 2129895213.0,
+            "is_retired": true
+          },
+          {
+            "age": 78,
+            "wealth": 2573783408.0,
+            "is_retired": true
+          },
+          {
+            "age": 79,
+            "wealth": 3110199982.0,
+            "is_retired": true
+          },
+          {
+            "age": 80,
+            "wealth": 3758432924.0,
+            "is_retired": true
+          },
+          {
+            "age": 81,
+            "wealth": 4541790910.0,
+            "is_retired": true
+          },
+          {
+            "age": 82,
+            "wealth": 5488441440.0,
+            "is_retired": true
+          },
+          {
+            "age": 83,
+            "wealth": 6632423681.0,
+            "is_retired": true
+          },
+          {
+            "age": 84,
+            "wealth": 8014872455.0,
+            "is_retired": true
+          },
+          {
+            "age": 85,
+            "wealth": 9685497361.0,
+            "is_retired": true
+          },
+          {
+            "age": 86,
+            "wealth": 11704370240.0,
+            "is_retired": true
+          },
+          {
+            "age": 87,
+            "wealth": 14144085240.0,
+            "is_retired": true
+          },
+          {
+            "age": 88,
+            "wealth": 17092369161.0,
+            "is_retired": true
+          },
+          {
+            "age": 89,
+            "wealth": 20655235940.0,
+            "is_retired": true
+          },
+          {
+            "age": 90,
+            "wealth": 24960798703.0,
+            "is_retired": true
+          }
+        ],
+        "milestones": {
+          "60": 85533113.0,
+          "70": 566218412.0,
+          "80": 3758432924.0,
+          "90": 24960798703.0
+        },
+        "ending_wealth_age_90": 24960798703.0,
+        "wealth_at_60": 85533113.0,
+        "wealth_at_70": 566218412.0,
+        "wealth_at_80": 3758432924.0,
+        "is_exhausted": false
+      }
+    },
+    "stress_regimes": {
+      "gfc_2008": {
+        "name": "2008 Great Financial Crisis",
+        "ci": {
+          "pct_change": -43.2,
+          "post_val": 255580.0,
+          "dollar_loss": -194420.0
+        },
+        "pi": {
+          "pct_change": -41.9,
+          "post_val": 216905.0,
+          "dollar_loss": -156425.0
+        },
+        "opt": {
+          "pct_change": -40.16,
+          "post_val": 256436.0,
+          "dollar_loss": -172068.0
+        }
+      },
+      "covid_2020": {
+        "name": "2020 COVID Market Crash",
+        "ci": {
+          "pct_change": -17.51,
+          "post_val": 371200.0,
+          "dollar_loss": -78800.0
+        },
+        "pi": {
+          "pct_change": -12.0,
+          "post_val": 328530.0,
+          "dollar_loss": -44800.0
+        },
+        "opt": {
+          "pct_change": -22.24,
+          "post_val": 333205.0,
+          "dollar_loss": -95299.0
+        }
+      },
+      "stagflation_2022": {
+        "name": "2022 Stagflation & Rate Shock",
+        "ci": {
+          "pct_change": -37.18,
+          "post_val": 282670.0,
+          "dollar_loss": -167330.0
+        },
+        "pi": {
+          "pct_change": -32.6,
+          "post_val": 251624.0,
+          "dollar_loss": -121706.0
+        },
+        "opt": {
+          "pct_change": -28.16,
+          "post_val": 307828.0,
+          "dollar_loss": -120676.0
+        }
+      }
+    },
+    "monte_carlo": {
+      "ci": {
+        "success_rate_pct": 99.8,
+        "p10_ending_wealth": 1410124222.0,
+        "median_ending_wealth": 20025363549.0,
+        "p90_ending_wealth": 273386799580.0
+      },
+      "pi": {
+        "success_rate_pct": 99.3,
+        "p10_ending_wealth": 91774024.0,
+        "median_ending_wealth": 707832269.0,
+        "p90_ending_wealth": 4140307116.0
+      },
+      "opt": {
+        "success_rate_pct": 99.5,
+        "p10_ending_wealth": 356998824.0,
+        "median_ending_wealth": 4927436166.0,
+        "p90_ending_wealth": 53606181256.0
+      }
+    },
+    "verdict": "DO NOT PROCEED with Proposed Investment (PI) as structured. High immediate transition drag of $76,670 (17.0% of wealth) requires inf years to break even. Switch to LPL AI-Optimized Staged Strategy.",
+    "verdict_badge": "REJECT_PI_PROPOSAL",
+    "rationale": [
+      "Immediate tax penalty of $0 on lump-sum Roth conversion pushes client into highest marginal bracket.",
+      "Exiting Vanguard annuity triggers a $1,500 surrender fee for only a 0.25% return differential, taking 6.8 years just to recoup the penalty.",
+      "100% Nasdaq tilt elevates portfolio beta to 1.25 and downside maximum drawdown to -32.6%.",
+      "LPL AI-Optimized model breaks even in 0.8 years and delivers +$23,041,046,281 higher net wealth at age 90."
+    ]
+  },
+  {
+    "persona_id": "persona_3_wealth_preservation",
+    "client_name": "Robert & Elena Castillo (Wealth Preservation Near-Retiree)",
+    "client_profile": "Age 59 near-retirees in Florida with $1.8M portfolio and high variable annuity surrender penalties.",
+    "age": 59,
+    "retire_age": 62,
+    "total_portfolio_value": 1800000,
+    "transition_friction": {
+      "pi": {
+        "cap_gains_tax": 12000.0,
+        "exit_surrender_fees": 42000.0,
+        "roth_conversion_tax": 0.0,
+        "transaction_costs": 1200.0,
+        "total_friction": 55200.0,
+        "friction_pct": 3.07,
+        "net_starting_capital": 1744800.0
+      },
+      "opt": {
+        "cap_gains_tax": 0.0,
+        "exit_surrender_fees": 0.0,
+        "roth_conversion_tax": 0.0,
+        "transaction_costs": 0.0,
+        "total_friction": 0.0,
+        "friction_pct": 0.0,
+        "net_starting_capital": 1800000.0
+      }
+    },
+    "break_even_years": {
+      "pi": 8.3,
+      "opt": 0.8
+    },
+    "portfolio_metrics": {
+      "ci": {
+        "gross_cagr_10y": 0.06138888888888889,
+        "gross_cagr_1y": 0.11983333333333332,
+        "gross_cagr_3y": 0.026444444444444448,
+        "gross_cagr_5y": 0.0595,
+        "volatility": 0.0936111111111111,
+        "expense_ratio": 0.006583333333333333,
+        "advisory_fee": 0.0,
+        "total_fee_drag": 0.006583333333333333,
+        "net_cagr": 0.05480555555555555,
+        "sharpe_ratio": 0.14,
+        "sortino_ratio": 0.19,
+        "max_drawdown": -0.15,
+        "beta": 0.43,
+        "var_95": 0.099,
+        "cvar_95": 0.138
+      },
+      "pi": {
+        "gross_cagr_10y": 0.07138888888888889,
+        "gross_cagr_1y": 0.14983333333333332,
+        "gross_cagr_3y": 0.03444444444444445,
+        "gross_cagr_5y": 0.073,
+        "volatility": 0.10211111111111111,
+        "expense_ratio": 0.005416666666666667,
+        "advisory_fee": 0.007222222222222222,
+        "total_fee_drag": 0.012638888888888889,
+        "net_cagr": 0.058750000000000004,
+        "sharpe_ratio": 0.16,
+        "sortino_ratio": 0.23,
+        "max_drawdown": -0.177,
+        "beta": 0.52,
+        "var_95": 0.109,
+        "cvar_95": 0.152
+      },
+      "opt": {
+        "gross_cagr_10y": 0.06138888888888889,
+        "gross_cagr_1y": 0.11983333333333332,
+        "gross_cagr_3y": 0.026444444444444448,
+        "gross_cagr_5y": 0.0595,
+        "volatility": 0.0936111111111111,
+        "expense_ratio": 0.006127777777777778,
+        "advisory_fee": 0.0003333333333333333,
+        "total_fee_drag": 0.006461111111111111,
+        "net_cagr": 0.05492777777777778,
+        "sharpe_ratio": 0.14,
+        "sortino_ratio": 0.19,
+        "max_drawdown": -0.15,
+        "beta": 0.43,
+        "var_95": 0.099,
+        "cvar_95": 0.138
+      }
+    },
+    "longevity_outcomes": {
+      "ci": {
+        "trajectory": [
+          {
+            "age": 59,
+            "wealth": 1800000,
+            "is_retired": false
+          },
+          {
+            "age": 60,
+            "wealth": 1898650.0,
+            "is_retired": false
+          },
+          {
+            "age": 61,
+            "wealth": 2002707.0,
+            "is_retired": false
+          },
+          {
+            "age": 62,
+            "wealth": 2112466.0,
+            "is_retired": true
+          },
+          {
+            "age": 63,
+            "wealth": 2156241.0,
+            "is_retired": true
+          },
+          {
+            "age": 64,
+            "wealth": 2200540.0,
+            "is_retired": true
+          },
+          {
+            "age": 65,
+            "wealth": 2245345.0,
+            "is_retired": true
+          },
+          {
+            "age": 66,
+            "wealth": 2290635.0,
+            "is_retired": true
+          },
+          {
+            "age": 67,
+            "wealth": 2336389.0,
+            "is_retired": true
+          },
+          {
+            "age": 68,
+            "wealth": 2382580.0,
+            "is_retired": true
+          },
+          {
+            "age": 69,
+            "wealth": 2429182.0,
+            "is_retired": true
+          },
+          {
+            "age": 70,
+            "wealth": 2476163.0,
+            "is_retired": true
+          },
+          {
+            "age": 71,
+            "wealth": 2523491.0,
+            "is_retired": true
+          },
+          {
+            "age": 72,
+            "wealth": 2571127.0,
+            "is_retired": true
+          },
+          {
+            "age": 73,
+            "wealth": 2619033.0,
+            "is_retired": true
+          },
+          {
+            "age": 74,
+            "wealth": 2659137.0,
+            "is_retired": true
+          },
+          {
+            "age": 75,
+            "wealth": 2698536.0,
+            "is_retired": true
+          },
+          {
+            "age": 76,
+            "wealth": 2737133.0,
+            "is_retired": true
+          },
+          {
+            "age": 77,
+            "wealth": 2774790.0,
+            "is_retired": true
+          },
+          {
+            "age": 78,
+            "wealth": 2811400.0,
+            "is_retired": true
+          },
+          {
+            "age": 79,
+            "wealth": 2846763.0,
+            "is_retired": true
+          },
+          {
+            "age": 80,
+            "wealth": 2880702.0,
+            "is_retired": true
+          },
+          {
+            "age": 81,
+            "wealth": 2913024.0,
+            "is_retired": true
+          },
+          {
+            "age": 82,
+            "wealth": 2943579.0,
+            "is_retired": true
+          },
+          {
+            "age": 83,
+            "wealth": 2972084.0,
+            "is_retired": true
+          },
+          {
+            "age": 84,
+            "wealth": 2998364.0,
+            "is_retired": true
+          },
+          {
+            "age": 85,
+            "wealth": 3022078.0,
+            "is_retired": true
+          },
+          {
+            "age": 86,
+            "wealth": 3043018.0,
+            "is_retired": true
+          },
+          {
+            "age": 87,
+            "wealth": 3060877.0,
+            "is_retired": true
+          },
+          {
+            "age": 88,
+            "wealth": 3075321.0,
+            "is_retired": true
+          },
+          {
+            "age": 89,
+            "wealth": 3086111.0,
+            "is_retired": true
+          },
+          {
+            "age": 90,
+            "wealth": 3092732.0,
+            "is_retired": true
+          }
+        ],
+        "milestones": {
+          "60": 1898650.0,
+          "70": 2476163.0,
+          "80": 2880702.0,
+          "90": 3092732.0
+        },
+        "ending_wealth_age_90": 3092732.0,
+        "wealth_at_60": 1898650.0,
+        "wealth_at_70": 2476163.0,
+        "wealth_at_80": 2880702.0,
+        "is_exhausted": false
+      },
+      "pi": {
+        "trajectory": [
+          {
+            "age": 59,
+            "wealth": 1744800.0,
+            "is_retired": false
+          },
+          {
+            "age": 60,
+            "wealth": 1847307.0,
+            "is_retired": false
+          },
+          {
+            "age": 61,
+            "wealth": 1955836.0,
+            "is_retired": false
+          },
+          {
+            "age": 62,
+            "wealth": 2070742.0,
+            "is_retired": true
+          },
+          {
+            "age": 63,
+            "wealth": 2120648.0,
+            "is_retired": true
+          },
+          {
+            "age": 64,
+            "wealth": 2171611.0,
+            "is_retired": true
+          },
+          {
+            "age": 65,
+            "wealth": 2223646.0,
+            "is_retired": true
+          },
+          {
+            "age": 66,
+            "wealth": 2276768.0,
+            "is_retired": true
+          },
+          {
+            "age": 67,
+            "wealth": 2330993.0,
+            "is_retired": true
+          },
+          {
+            "age": 68,
+            "wealth": 2386333.0,
+            "is_retired": true
+          },
+          {
+            "age": 69,
+            "wealth": 2442803.0,
+            "is_retired": true
+          },
+          {
+            "age": 70,
+            "wealth": 2500416.0,
+            "is_retired": true
+          },
+          {
+            "age": 71,
+            "wealth": 2559185.0,
+            "is_retired": true
+          },
+          {
+            "age": 72,
+            "wealth": 2619123.0,
+            "is_retired": true
+          },
+          {
+            "age": 73,
+            "wealth": 2680240.0,
+            "is_retired": true
+          },
+          {
+            "age": 74,
+            "wealth": 2742547.0,
+            "is_retired": true
+          },
+          {
+            "age": 75,
+            "wealth": 2806056.0,
+            "is_retired": true
+          },
+          {
+            "age": 76,
+            "wealth": 2870773.0,
+            "is_retired": true
+          },
+          {
+            "age": 77,
+            "wealth": 2936708.0,
+            "is_retired": true
+          },
+          {
+            "age": 78,
+            "wealth": 3003867.0,
+            "is_retired": true
+          },
+          {
+            "age": 79,
+            "wealth": 3072256.0,
+            "is_retired": true
+          },
+          {
+            "age": 80,
+            "wealth": 3141880.0,
+            "is_retired": true
+          },
+          {
+            "age": 81,
+            "wealth": 3212741.0,
+            "is_retired": true
+          },
+          {
+            "age": 82,
+            "wealth": 3284841.0,
+            "is_retired": true
+          },
+          {
+            "age": 83,
+            "wealth": 3358179.0,
+            "is_retired": true
+          },
+          {
+            "age": 84,
+            "wealth": 3432753.0,
+            "is_retired": true
+          },
+          {
+            "age": 85,
+            "wealth": 3508560.0,
+            "is_retired": true
+          },
+          {
+            "age": 86,
+            "wealth": 3585592.0,
+            "is_retired": true
+          },
+          {
+            "age": 87,
+            "wealth": 3663841.0,
+            "is_retired": true
+          },
+          {
+            "age": 88,
+            "wealth": 3743296.0,
+            "is_retired": true
+          },
+          {
+            "age": 89,
+            "wealth": 3823942.0,
+            "is_retired": true
+          },
+          {
+            "age": 90,
+            "wealth": 3905764.0,
+            "is_retired": true
+          }
+        ],
+        "milestones": {
+          "60": 1847307.0,
+          "70": 2500416.0,
+          "80": 3141880.0,
+          "90": 3905764.0
+        },
+        "ending_wealth_age_90": 3905764.0,
+        "wealth_at_60": 1847307.0,
+        "wealth_at_70": 2500416.0,
+        "wealth_at_80": 3141880.0,
+        "is_exhausted": false
+      },
+      "opt": {
+        "trajectory": [
+          {
+            "age": 59,
+            "wealth": 1800000.0,
+            "is_retired": false
+          },
+          {
+            "age": 60,
+            "wealth": 1898870.0,
+            "is_retired": false
+          },
+          {
+            "age": 61,
+            "wealth": 2003171.0,
+            "is_retired": false
+          },
+          {
+            "age": 62,
+            "wealth": 2113200.0,
+            "is_retired": true
+          },
+          {
+            "age": 63,
+            "wealth": 2157274.0,
+            "is_retired": true
+          },
+          {
+            "age": 64,
+            "wealth": 2201893.0,
+            "is_retired": true
+          },
+          {
+            "age": 65,
+            "wealth": 2247041.0,
+            "is_retired": true
+          },
+          {
+            "age": 66,
+            "wealth": 2292699.0,
+            "is_retired": true
+          },
+          {
+            "age": 67,
+            "wealth": 2338846.0,
+            "is_retired": true
+          },
+          {
+            "age": 68,
+            "wealth": 2385458.0,
+            "is_retired": true
+          },
+          {
+            "age": 69,
+            "wealth": 2432509.0,
+            "is_retired": true
+          },
+          {
+            "age": 70,
+            "wealth": 2479970.0,
+            "is_retired": true
+          },
+          {
+            "age": 71,
+            "wealth": 2527809.0,
+            "is_retired": true
+          },
+          {
+            "age": 72,
+            "wealth": 2575992.0,
+            "is_retired": true
+          },
+          {
+            "age": 73,
+            "wealth": 2624479.0,
+            "is_retired": true
+          },
+          {
+            "age": 74,
+            "wealth": 2673229.0,
+            "is_retired": true
+          },
+          {
+            "age": 75,
+            "wealth": 2722197.0,
+            "is_retired": true
+          },
+          {
+            "age": 76,
+            "wealth": 2771333.0,
+            "is_retired": true
+          },
+          {
+            "age": 77,
+            "wealth": 2820583.0,
+            "is_retired": true
+          },
+          {
+            "age": 78,
+            "wealth": 2869889.0,
+            "is_retired": true
+          },
+          {
+            "age": 79,
+            "wealth": 2919188.0,
+            "is_retired": true
+          },
+          {
+            "age": 80,
+            "wealth": 2968411.0,
+            "is_retired": true
+          },
+          {
+            "age": 81,
+            "wealth": 3017484.0,
+            "is_retired": true
+          },
+          {
+            "age": 82,
+            "wealth": 3066329.0,
+            "is_retired": true
+          },
+          {
+            "age": 83,
+            "wealth": 3114860.0,
+            "is_retired": true
+          },
+          {
+            "age": 84,
+            "wealth": 3162983.0,
+            "is_retired": true
+          },
+          {
+            "age": 85,
+            "wealth": 3210601.0,
+            "is_retired": true
+          },
+          {
+            "age": 86,
+            "wealth": 3257607.0,
+            "is_retired": true
+          },
+          {
+            "age": 87,
+            "wealth": 3303885.0,
+            "is_retired": true
+          },
+          {
+            "age": 88,
+            "wealth": 3349315.0,
+            "is_retired": true
+          },
+          {
+            "age": 89,
+            "wealth": 3393763.0,
+            "is_retired": true
+          },
+          {
+            "age": 90,
+            "wealth": 3437090.0,
+            "is_retired": true
+          }
+        ],
+        "milestones": {
+          "60": 1898870.0,
+          "70": 2479970.0,
+          "80": 2968411.0,
+          "90": 3437090.0
+        },
+        "ending_wealth_age_90": 3437090.0,
+        "wealth_at_60": 1898870.0,
+        "wealth_at_70": 2479970.0,
+        "wealth_at_80": 2968411.0,
+        "is_exhausted": false
+      }
+    },
+    "stress_regimes": {
+      "gfc_2008": {
+        "name": "2008 Great Financial Crisis",
+        "ci": {
+          "pct_change": -10.59,
+          "post_val": 1609400.0,
+          "dollar_loss": -190600.0
+        },
+        "pi": {
+          "pct_change": -16.09,
+          "post_val": 1464081.0,
+          "dollar_loss": -280719.0
+        },
+        "opt": {
+          "pct_change": -10.59,
+          "post_val": 1609400.0,
+          "dollar_loss": -190600.0
+        }
+      },
+      "covid_2020": {
+        "name": "2020 COVID Market Crash",
+        "ci": {
+          "pct_change": -4.87,
+          "post_val": 1712300.0,
+          "dollar_loss": -87700.0
+        },
+        "pi": {
+          "pct_change": -6.42,
+          "post_val": 1632745.0,
+          "dollar_loss": -112055.0
+        },
+        "opt": {
+          "pct_change": -4.87,
+          "post_val": 1712300.0,
+          "dollar_loss": -87700.0
+        }
+      },
+      "stagflation_2022": {
+        "name": "2022 Stagflation & Rate Shock",
+        "ci": {
+          "pct_change": -8.94,
+          "post_val": 1639000.0,
+          "dollar_loss": -161000.0
+        },
+        "pi": {
+          "pct_change": -14.74,
+          "post_val": 1487539.0,
+          "dollar_loss": -257261.0
+        },
+        "opt": {
+          "pct_change": -8.94,
+          "post_val": 1639000.0,
+          "dollar_loss": -161000.0
+        }
+      }
+    },
+    "monte_carlo": {
+      "ci": {
+        "success_rate_pct": 87.2,
+        "p10_ending_wealth": 0,
+        "median_ending_wealth": 2535513.0,
+        "p90_ending_wealth": 7722323.0
+      },
+      "pi": {
+        "success_rate_pct": 86.9,
+        "p10_ending_wealth": 0,
+        "median_ending_wealth": 2765889.0,
+        "p90_ending_wealth": 9251770.0
+      },
+      "opt": {
+        "success_rate_pct": 84.9,
+        "p10_ending_wealth": 0,
+        "median_ending_wealth": 2371930.0,
+        "p90_ending_wealth": 7389454.0
+      }
+    },
+    "verdict": "DO NOT PROCEED with Proposed Investment (PI) as structured. High immediate transition drag of $55,200 (3.1% of wealth) requires 8.3 years to break even. Switch to LPL AI-Optimized Staged Strategy.",
+    "verdict_badge": "REJECT_PI_PROPOSAL",
+    "rationale": [
+      "Immediate tax penalty of $0 on lump-sum Roth conversion pushes client into highest marginal bracket.",
+      "Exiting Vanguard annuity triggers a $1,500 surrender fee for only a 0.25% return differential, taking 6.8 years just to recoup the penalty.",
+      "100% Nasdaq tilt elevates portfolio beta to 0.52 and downside maximum drawdown to -17.7%.",
+      "LPL AI-Optimized model breaks even in 0.8 years and delivers +$-468,674 higher net wealth at age 90."
+    ]
+  },
+  {
+    "persona_id": "persona_4_tax_gain_trap",
+    "client_name": "Jonathan & Claire Hastings (Ultra-HNW Embedded Gains Trap)",
+    "client_profile": "Age 48 New York executives with $3.5M portfolio and $1.7M unrealized taxable gain.",
+    "age": 48,
+    "retire_age": 60,
+    "total_portfolio_value": 3500000,
+    "transition_friction": {
+      "pi": {
+        "cap_gains_tax": 501840.0,
+        "exit_surrender_fees": 0.0,
+        "roth_conversion_tax": 286320.0,
+        "transaction_costs": 5600.0,
+        "total_friction": 793760.0,
+        "friction_pct": 22.68,
+        "net_starting_capital": 2706240.0
+      },
+      "opt": {
+        "cap_gains_tax": 200736.0,
+        "exit_surrender_fees": 0.0,
+        "roth_conversion_tax": 0.0,
+        "transaction_costs": 1250.0,
+        "total_friction": 201986.0,
+        "friction_pct": 5.77,
+        "net_starting_capital": 3298014.0
+      }
+    },
+    "break_even_years": {
+      "pi": 8.7,
+      "opt": 30.3
+    },
+    "portfolio_metrics": {
+      "ci": {
+        "gross_cagr_10y": 0.11497142857142857,
+        "gross_cagr_1y": 0.22328571428571428,
+        "gross_cagr_3y": 0.08245714285714287,
+        "gross_cagr_5y": 0.12819999999999998,
+        "volatility": 0.14125714285714286,
+        "expense_ratio": 0.006985714285714287,
+        "advisory_fee": 0.0,
+        "total_fee_drag": 0.006985714285714287,
+        "net_cagr": 0.10798571428571428,
+        "sharpe_ratio": 0.47,
+        "sortino_ratio": 0.65,
+        "max_drawdown": -0.227,
+        "beta": 0.89,
+        "var_95": 0.124,
+        "cvar_95": 0.183
+      },
+      "pi": {
+        "gross_cagr_10y": 0.16279999999999997,
+        "gross_cagr_1y": 0.3446285714285714,
+        "gross_cagr_3y": 0.09485714285714285,
+        "gross_cagr_5y": 0.17514285714285713,
+        "volatility": 0.19085714285714284,
+        "expense_ratio": 0.00997142857142857,
+        "advisory_fee": 0.011642857142857144,
+        "total_fee_drag": 0.021614285714285714,
+        "net_cagr": 0.14118571428571425,
+        "sharpe_ratio": 0.52,
+        "sortino_ratio": 0.72,
+        "max_drawdown": -0.304,
+        "beta": 1.11,
+        "var_95": 0.173,
+        "cvar_95": 0.252
+      },
+      "opt": {
+        "gross_cagr_10y": 0.11497142857142857,
+        "gross_cagr_1y": 0.22328571428571428,
+        "gross_cagr_3y": 0.08245714285714287,
+        "gross_cagr_5y": 0.12819999999999998,
+        "volatility": 0.14125714285714286,
+        "expense_ratio": 0.001968571428571429,
+        "advisory_fee": 0.002842857142857143,
+        "total_fee_drag": 0.004811428571428572,
+        "net_cagr": 0.11016,
+        "sharpe_ratio": 0.48,
+        "sortino_ratio": 0.67,
+        "max_drawdown": -0.227,
+        "beta": 0.89,
+        "var_95": 0.122,
+        "cvar_95": 0.181
+      }
+    },
+    "longevity_outcomes": {
+      "ci": {
+        "trajectory": [
+          {
+            "age": 48,
+            "wealth": 3500000,
+            "is_retired": false
+          },
+          {
+            "age": 49,
+            "wealth": 3877950.0,
+            "is_retired": false
+          },
+          {
+            "age": 50,
+            "wealth": 4296713.0,
+            "is_retired": false
+          },
+          {
+            "age": 51,
+            "wealth": 4760697.0,
+            "is_retired": false
+          },
+          {
+            "age": 52,
+            "wealth": 5274784.0,
+            "is_retired": false
+          },
+          {
+            "age": 53,
+            "wealth": 5844385.0,
+            "is_retired": false
+          },
+          {
+            "age": 54,
+            "wealth": 6475496.0,
+            "is_retired": false
+          },
+          {
+            "age": 55,
+            "wealth": 7174757.0,
+            "is_retired": false
+          },
+          {
+            "age": 56,
+            "wealth": 7949528.0,
+            "is_retired": false
+          },
+          {
+            "age": 57,
+            "wealth": 8807963.0,
+            "is_retired": false
+          },
+          {
+            "age": 58,
+            "wealth": 9759097.0,
+            "is_retired": false
+          },
+          {
+            "age": 59,
+            "wealth": 10812941.0,
+            "is_retired": false
+          },
+          {
+            "age": 60,
+            "wealth": 11980584.0,
+            "is_retired": true
+          },
+          {
+            "age": 61,
+            "wealth": 13137316.0,
+            "is_retired": true
+          },
+          {
+            "age": 62,
+            "wealth": 14415038.0,
+            "is_retired": true
+          },
+          {
+            "age": 63,
+            "wealth": 15826706.0,
+            "is_retired": true
+          },
+          {
+            "age": 64,
+            "wealth": 17386672.0,
+            "is_retired": true
+          },
+          {
+            "age": 65,
+            "wealth": 19110833.0,
+            "is_retired": true
+          },
+          {
+            "age": 66,
+            "wealth": 21016802.0,
+            "is_retired": true
+          },
+          {
+            "age": 67,
+            "wealth": 23124087.0,
+            "is_retired": true
+          },
+          {
+            "age": 68,
+            "wealth": 25454302.0,
+            "is_retired": true
+          },
+          {
+            "age": 69,
+            "wealth": 28031392.0,
+            "is_retired": true
+          },
+          {
+            "age": 70,
+            "wealth": 30881881.0,
+            "is_retired": true
+          },
+          {
+            "age": 71,
+            "wealth": 34035156.0,
+            "is_retired": true
+          },
+          {
+            "age": 72,
+            "wealth": 37523773.0,
+            "is_retired": true
+          },
+          {
+            "age": 73,
+            "wealth": 41383800.0,
+            "is_retired": true
+          },
+          {
+            "age": 74,
+            "wealth": 45521962.0,
+            "is_retired": true
+          },
+          {
+            "age": 75,
+            "wealth": 50082304.0,
+            "is_retired": true
+          },
+          {
+            "age": 76,
+            "wealth": 55107939.0,
+            "is_retired": true
+          },
+          {
+            "age": 77,
+            "wealth": 60645653.0,
+            "is_retired": true
+          },
+          {
+            "age": 78,
+            "wealth": 66747701.0,
+            "is_retired": true
+          },
+          {
+            "age": 79,
+            "wealth": 73469508.0,
+            "is_retired": true
+          },
+          {
+            "age": 80,
+            "wealth": 80872512.0,
+            "is_retired": true
+          },
+          {
+            "age": 81,
+            "wealth": 89023807.0,
+            "is_retired": true
+          },
+          {
+            "age": 82,
+            "wealth": 97998583.0,
+            "is_retired": true
+          },
+          {
+            "age": 83,
+            "wealth": 107875073.0,
+            "is_retired": true
+          },
+          {
+            "age": 84,
+            "wealth": 118742854.0,
+            "is_retired": true
+          },
+          {
+            "age": 85,
+            "wealth": 130693757.0,
+            "is_retired": true
+          },
+          {
+            "age": 86,
+            "wealth": 143833707.0,
+            "is_retired": true
+          },
+          {
+            "age": 87,
+            "wealth": 158274335.0,
+            "is_retired": true
+          },
+          {
+            "age": 88,
+            "wealth": 174135901.0,
+            "is_retired": true
+          },
+          {
+            "age": 89,
+            "wealth": 191555339.0,
+            "is_retired": true
+          },
+          {
+            "age": 90,
+            "wealth": 210664880.0,
+            "is_retired": true
+          }
+        ],
+        "milestones": {
+          "60": 11980584.0,
+          "70": 30881881.0,
+          "80": 80872512.0,
+          "90": 210664880.0
+        },
+        "ending_wealth_age_90": 210664880.0,
+        "wealth_at_60": 11980584.0,
+        "wealth_at_70": 30881881.0,
+        "wealth_at_80": 80872512.0,
+        "is_exhausted": false
+      },
+      "pi": {
+        "trajectory": [
+          {
+            "age": 48,
+            "wealth": 2706240.0,
+            "is_retired": false
+          },
+          {
+            "age": 49,
+            "wealth": 3088322.0,
+            "is_retired": false
+          },
+          {
+            "age": 50,
+            "wealth": 3524349.0,
+            "is_retired": false
+          },
+          {
+            "age": 51,
+            "wealth": 4021937.0,
+            "is_retired": false
+          },
+          {
+            "age": 52,
+            "wealth": 4589777.0,
+            "is_retired": false
+          },
+          {
+            "age": 53,
+            "wealth": 5237788.0,
+            "is_retired": false
+          },
+          {
+            "age": 54,
+            "wealth": 5977289.0,
+            "is_retired": false
+          },
+          {
+            "age": 55,
+            "wealth": 6821197.0,
+            "is_retired": false
+          },
+          {
+            "age": 56,
+            "wealth": 7784253.0,
+            "is_retired": false
+          },
+          {
+            "age": 57,
+            "wealth": 8883278.0,
+            "is_retired": false
+          },
+          {
+            "age": 58,
+            "wealth": 10137470.0,
+            "is_retired": false
+          },
+          {
+            "age": 59,
+            "wealth": 11568736.0,
+            "is_retired": false
+          },
+          {
+            "age": 60,
+            "wealth": 13202076.0,
+            "is_retired": true
+          },
+          {
+            "age": 61,
+            "wealth": 14929270.0,
+            "is_retired": true
+          },
+          {
+            "age": 62,
+            "wealth": 16896400.0,
+            "is_retired": true
+          },
+          {
+            "age": 63,
+            "wealth": 19137231.0,
+            "is_retired": true
+          },
+          {
+            "age": 64,
+            "wealth": 21690292.0,
+            "is_retired": true
+          },
+          {
+            "age": 65,
+            "wealth": 24599550.0,
+            "is_retired": true
+          },
+          {
+            "age": 66,
+            "wealth": 27915177.0,
+            "is_retired": true
+          },
+          {
+            "age": 67,
+            "wealth": 31694422.0,
+            "is_retired": true
+          },
+          {
+            "age": 68,
+            "wealth": 36002616.0,
+            "is_retired": true
+          },
+          {
+            "age": 69,
+            "wealth": 40914309.0,
+            "is_retired": true
+          },
+          {
+            "age": 70,
+            "wealth": 46514574.0,
+            "is_retired": true
+          },
+          {
+            "age": 71,
+            "wealth": 52900491.0,
+            "is_retired": true
+          },
+          {
+            "age": 72,
+            "wealth": 60182841.0,
+            "is_retired": true
+          },
+          {
+            "age": 73,
+            "wealth": 68488044.0,
+            "is_retired": true
+          },
+          {
+            "age": 74,
+            "wealth": 77960362.0,
+            "is_retired": true
+          },
+          {
+            "age": 75,
+            "wealth": 88764424.0,
+            "is_retired": true
+          },
+          {
+            "age": 76,
+            "wealth": 101088094.0,
+            "is_retired": true
+          },
+          {
+            "age": 77,
+            "wealth": 115145759.0,
+            "is_retired": true
+          },
+          {
+            "age": 78,
+            "wealth": 131182067.0,
+            "is_retired": true
+          },
+          {
+            "age": 79,
+            "wealth": 149476205.0,
+            "is_retired": true
+          },
+          {
+            "age": 80,
+            "wealth": 170346769.0,
+            "is_retired": true
+          },
+          {
+            "age": 81,
+            "wealth": 194157335.0,
+            "is_retired": true
+          },
+          {
+            "age": 82,
+            "wealth": 221322801.0,
+            "is_retired": true
+          },
+          {
+            "age": 83,
+            "wealth": 252316644.0,
+            "is_retired": true
+          },
+          {
+            "age": 84,
+            "wealth": 287679177.0,
+            "is_retired": true
+          },
+          {
+            "age": 85,
+            "wealth": 328026996.0,
+            "is_retired": true
+          },
+          {
+            "age": 86,
+            "wealth": 374063746.0,
+            "is_retired": true
+          },
+          {
+            "age": 87,
+            "wealth": 426592409.0,
+            "is_retired": true
+          },
+          {
+            "age": 88,
+            "wealth": 486529331.0,
+            "is_retired": true
+          },
+          {
+            "age": 89,
+            "wealth": 554920228.0,
+            "is_retired": true
+          },
+          {
+            "age": 90,
+            "wealth": 632958449.0,
+            "is_retired": true
+          }
+        ],
+        "milestones": {
+          "60": 13202076.0,
+          "70": 46514574.0,
+          "80": 170346769.0,
+          "90": 632958449.0
+        },
+        "ending_wealth_age_90": 632958449.0,
+        "wealth_at_60": 13202076.0,
+        "wealth_at_70": 46514574.0,
+        "wealth_at_80": 170346769.0,
+        "is_exhausted": false
+      },
+      "opt": {
+        "trajectory": [
+          {
+            "age": 48,
+            "wealth": 3298014.0,
+            "is_retired": false
+          },
+          {
+            "age": 49,
+            "wealth": 3661323.0,
+            "is_retired": false
+          },
+          {
+            "age": 50,
+            "wealth": 4064655.0,
+            "is_retired": false
+          },
+          {
+            "age": 51,
+            "wealth": 4512417.0,
+            "is_retired": false
+          },
+          {
+            "age": 52,
+            "wealth": 5009505.0,
+            "is_retired": false
+          },
+          {
+            "age": 53,
+            "wealth": 5561352.0,
+            "is_retired": false
+          },
+          {
+            "age": 54,
+            "wealth": 6173990.0,
+            "is_retired": false
+          },
+          {
+            "age": 55,
+            "wealth": 6854117.0,
+            "is_retired": false
+          },
+          {
+            "age": 56,
+            "wealth": 7609167.0,
+            "is_retired": false
+          },
+          {
+            "age": 57,
+            "wealth": 8447392.0,
+            "is_retired": false
+          },
+          {
+            "age": 58,
+            "wealth": 9377957.0,
+            "is_retired": false
+          },
+          {
+            "age": 59,
+            "wealth": 10411033.0,
+            "is_retired": false
+          },
+          {
+            "age": 60,
+            "wealth": 11557912.0,
+            "is_retired": true
+          },
+          {
+            "age": 61,
+            "wealth": 12694132.0,
+            "is_retired": true
+          },
+          {
+            "age": 62,
+            "wealth": 13951598.0,
+            "is_retired": true
+          },
+          {
+            "age": 63,
+            "wealth": 15343556.0,
+            "is_retired": true
+          },
+          {
+            "age": 64,
+            "wealth": 16884710.0,
+            "is_retired": true
+          },
+          {
+            "age": 65,
+            "wealth": 18591378.0,
+            "is_retired": true
+          },
+          {
+            "age": 66,
+            "wealth": 20481676.0,
+            "is_retired": true
+          },
+          {
+            "age": 67,
+            "wealth": 22575708.0,
+            "is_retired": true
+          },
+          {
+            "age": 68,
+            "wealth": 24895792.0,
+            "is_retired": true
+          },
+          {
+            "age": 69,
+            "wealth": 27466701.0,
+            "is_retired": true
+          },
+          {
+            "age": 70,
+            "wealth": 30315932.0,
+            "is_retired": true
+          },
+          {
+            "age": 71,
+            "wealth": 33474009.0,
+            "is_retired": true
+          },
+          {
+            "age": 72,
+            "wealth": 36974812.0,
+            "is_retired": true
+          },
+          {
+            "age": 73,
+            "wealth": 40855953.0,
+            "is_retired": true
+          },
+          {
+            "age": 74,
+            "wealth": 45159180.0,
+            "is_retired": true
+          },
+          {
+            "age": 75,
+            "wealth": 49930837.0,
+            "is_retired": true
+          },
+          {
+            "age": 76,
+            "wealth": 55222369.0,
+            "is_retired": true
+          },
+          {
+            "age": 77,
+            "wealth": 61090886.0,
+            "is_retired": true
+          },
+          {
+            "age": 78,
+            "wealth": 67599780.0,
+            "is_retired": true
+          },
+          {
+            "age": 79,
+            "wealth": 74819425.0,
+            "is_retired": true
+          },
+          {
+            "age": 80,
+            "wealth": 82827943.0,
+            "is_retired": true
+          },
+          {
+            "age": 81,
+            "wealth": 91712054.0,
+            "is_retired": true
+          },
+          {
+            "age": 82,
+            "wealth": 101568029.0,
+            "is_retired": true
+          },
+          {
+            "age": 83,
+            "wealth": 112502737.0,
+            "is_retired": true
+          },
+          {
+            "age": 84,
+            "wealth": 124634816.0,
+            "is_retired": true
+          },
+          {
+            "age": 85,
+            "wealth": 138095967.0,
+            "is_retired": true
+          },
+          {
+            "age": 86,
+            "wealth": 153032393.0,
+            "is_retired": true
+          },
+          {
+            "age": 87,
+            "wealth": 169606397.0,
+            "is_retired": true
+          },
+          {
+            "age": 88,
+            "wealth": 187998156.0,
+            "is_retired": true
+          },
+          {
+            "age": 89,
+            "wealth": 208407689.0,
+            "is_retired": true
+          },
+          {
+            "age": 90,
+            "wealth": 231057042.0,
+            "is_retired": true
+          }
+        ],
+        "milestones": {
+          "60": 11557912.0,
+          "70": 30315932.0,
+          "80": 82827943.0,
+          "90": 231057042.0
+        },
+        "ending_wealth_age_90": 231057042.0,
+        "wealth_at_60": 11557912.0,
+        "wealth_at_70": 30315932.0,
+        "wealth_at_80": 82827943.0,
+        "is_exhausted": false
+      }
+    },
+    "stress_regimes": {
+      "gfc_2008": {
+        "name": "2008 Great Financial Crisis",
+        "ci": {
+          "pct_change": -32.18,
+          "post_val": 2373800.0,
+          "dollar_loss": -1126200.0
+        },
+        "pi": {
+          "pct_change": -36.52,
+          "post_val": 1717998.0,
+          "dollar_loss": -988242.0
+        },
+        "opt": {
+          "pct_change": -32.18,
+          "post_val": 2236807.0,
+          "dollar_loss": -1061207.0
+        }
+      },
+      "covid_2020": {
+        "name": "2020 COVID Market Crash",
+        "ci": {
+          "pct_change": -16.5,
+          "post_val": 2922400.0,
+          "dollar_loss": -577600.0
+        },
+        "pi": {
+          "pct_change": -9.77,
+          "post_val": 2441802.0,
+          "dollar_loss": -264438.0
+        },
+        "opt": {
+          "pct_change": -16.5,
+          "post_val": 2753747.0,
+          "dollar_loss": -544267.0
+        }
+      },
+      "stagflation_2022": {
+        "name": "2022 Stagflation & Rate Shock",
+        "ci": {
+          "pct_change": -17.52,
+          "post_val": 2886900.0,
+          "dollar_loss": -613100.0
+        },
+        "pi": {
+          "pct_change": -30.36,
+          "post_val": 1884626.0,
+          "dollar_loss": -821614.0
+        },
+        "opt": {
+          "pct_change": -17.52,
+          "post_val": 2720296.0,
+          "dollar_loss": -577718.0
+        }
+      }
+    },
+    "monte_carlo": {
+      "ci": {
+        "success_rate_pct": 100.0,
+        "p10_ending_wealth": 40359937.0,
+        "median_ending_wealth": 161376506.0,
+        "p90_ending_wealth": 484501290.0
+      },
+      "pi": {
+        "success_rate_pct": 99.8,
+        "p10_ending_wealth": 63756312.0,
+        "median_ending_wealth": 339032800.0,
+        "p90_ending_wealth": 1441882060.0
+      },
+      "opt": {
+        "success_rate_pct": 99.8,
+        "p10_ending_wealth": 47955910.0,
+        "median_ending_wealth": 147450857.0,
+        "p90_ending_wealth": 531703473.0
+      }
+    },
+    "verdict": "DO NOT PROCEED with Proposed Investment (PI) as structured. High immediate transition drag of $793,760 (22.7% of wealth) requires 8.7 years to break even. Switch to LPL AI-Optimized Staged Strategy.",
+    "verdict_badge": "REJECT_PI_PROPOSAL",
+    "rationale": [
+      "Immediate tax penalty of $286,320 on lump-sum Roth conversion pushes client into highest marginal bracket.",
+      "Exiting Vanguard annuity triggers a $1,500 surrender fee for only a 0.25% return differential, taking 6.8 years just to recoup the penalty.",
+      "100% Nasdaq tilt elevates portfolio beta to 1.11 and downside maximum drawdown to -30.4%.",
+      "LPL AI-Optimized model breaks even in 30.3 years and delivers +$-401,901,407 higher net wealth at age 90."
+    ]
+  },
+  {
+    "persona_id": "persona_5_active_decumulation",
+    "client_name": "Eleanor Vance (Active Decumulation & RMD Risk)",
+    "client_profile": "Age 68 widow in Ohio with $1.2M portfolio facing 5.4% SWR and imminent age 75 RMDs.",
+    "age": 68,
+    "retire_age": 68,
+    "total_portfolio_value": 1200000,
+    "transition_friction": {
+      "pi": {
+        "cap_gains_tax": 3500.0,
+        "exit_surrender_fees": 0.0,
+        "roth_conversion_tax": 314500.0,
+        "transaction_costs": 1350.0,
+        "total_friction": 319350.0,
+        "friction_pct": 26.61,
+        "net_starting_capital": 880650.0
+      },
+      "opt": {
+        "cap_gains_tax": 0.0,
+        "exit_surrender_fees": 0.0,
+        "roth_conversion_tax": 127500.0,
+        "transaction_costs": 425.0,
+        "total_friction": 127925.0,
+        "friction_pct": 10.66,
+        "net_starting_capital": 1072075.0
+      }
+    },
+    "break_even_years": {
+      "pi": 8.4,
+      "opt": 0.8
+    },
+    "portfolio_metrics": {
+      "ci": {
+        "gross_cagr_10y": 0.11491666666666667,
+        "gross_cagr_1y": 0.21641666666666667,
+        "gross_cagr_3y": 0.09000000000000001,
+        "gross_cagr_5y": 0.129375,
+        "volatility": 0.13629166666666667,
+        "expense_ratio": 0.005291666666666667,
+        "advisory_fee": 0.0,
+        "total_fee_drag": 0.005291666666666667,
+        "net_cagr": 0.109625,
+        "sharpe_ratio": 0.5,
+        "sortino_ratio": 0.69,
+        "max_drawdown": -0.208,
+        "beta": 0.88,
+        "var_95": 0.115,
+        "cvar_95": 0.171
+      },
+      "pi": {
+        "gross_cagr_10y": 0.16858333333333334,
+        "gross_cagr_1y": 0.35450000000000004,
+        "gross_cagr_3y": 0.10616666666666667,
+        "gross_cagr_5y": 0.18358333333333332,
+        "volatility": 0.19116666666666665,
+        "expense_ratio": 0.008249999999999999,
+        "advisory_fee": 0.009166666666666667,
+        "total_fee_drag": 0.017416666666666664,
+        "net_cagr": 0.15116666666666667,
+        "sharpe_ratio": 0.57,
+        "sortino_ratio": 0.79,
+        "max_drawdown": -0.299,
+        "beta": 1.15,
+        "var_95": 0.163,
+        "cvar_95": 0.243
+      },
+      "opt": {
+        "gross_cagr_10y": 0.07187500000000001,
+        "gross_cagr_1y": 0.149625,
+        "gross_cagr_3y": 0.04,
+        "gross_cagr_5y": 0.074875,
+        "volatility": 0.0985,
+        "expense_ratio": 0.000525,
+        "advisory_fee": 0.001375,
+        "total_fee_drag": 0.0018999999999999998,
+        "net_cagr": 0.06997500000000001,
+        "sharpe_ratio": 0.28,
+        "sortino_ratio": 0.39,
+        "max_drawdown": -0.168,
+        "beta": 0.52,
+        "var_95": 0.092,
+        "cvar_95": 0.133
+      }
+    },
+    "longevity_outcomes": {
+      "ci": {
+        "trajectory": [
+          {
+            "age": 68,
+            "wealth": 1200000,
+            "is_retired": true
+          },
+          {
+            "age": 69,
+            "wealth": 1269550.0,
+            "is_retired": true
+          },
+          {
+            "age": 70,
+            "wealth": 1345034.0,
+            "is_retired": true
+          },
+          {
+            "age": 71,
+            "wealth": 1427060.0,
+            "is_retired": true
+          },
+          {
+            "age": 72,
+            "wealth": 1516298.0,
+            "is_retired": true
+          },
+          {
+            "age": 73,
+            "wealth": 1613494.0,
+            "is_retired": true
+          },
+          {
+            "age": 74,
+            "wealth": 1714270.0,
+            "is_retired": true
+          },
+          {
+            "age": 75,
+            "wealth": 1823631.0,
+            "is_retired": true
+          },
+          {
+            "age": 76,
+            "wealth": 1942419.0,
+            "is_retired": true
+          },
+          {
+            "age": 77,
+            "wealth": 2071538.0,
+            "is_retired": true
+          },
+          {
+            "age": 78,
+            "wealth": 2212009.0,
+            "is_retired": true
+          },
+          {
+            "age": 79,
+            "wealth": 2364889.0,
+            "is_retired": true
+          },
+          {
+            "age": 80,
+            "wealth": 2531359.0,
+            "is_retired": true
+          },
+          {
+            "age": 81,
+            "wealth": 2712705.0,
+            "is_retired": true
+          },
+          {
+            "age": 82,
+            "wealth": 2910392.0,
+            "is_retired": true
+          },
+          {
+            "age": 83,
+            "wealth": 3125896.0,
+            "is_retired": true
+          },
+          {
+            "age": 84,
+            "wealth": 3360957.0,
+            "is_retired": true
+          },
+          {
+            "age": 85,
+            "wealth": 3617298.0,
+            "is_retired": true
+          },
+          {
+            "age": 86,
+            "wealth": 3896970.0,
+            "is_retired": true
+          },
+          {
+            "age": 87,
+            "wealth": 4202097.0,
+            "is_retired": true
+          },
+          {
+            "age": 88,
+            "wealth": 4534963.0,
+            "is_retired": true
+          },
+          {
+            "age": 89,
+            "wealth": 4898218.0,
+            "is_retired": true
+          },
+          {
+            "age": 90,
+            "wealth": 5294311.0,
+            "is_retired": true
+          }
+        ],
+        "milestones": {
+          "60": 0,
+          "70": 1345034.0,
+          "80": 2531359.0,
+          "90": 5294311.0
+        },
+        "ending_wealth_age_90": 5294311.0,
+        "wealth_at_60": 0,
+        "wealth_at_70": 1345034.0,
+        "wealth_at_80": 2531359.0,
+        "is_exhausted": false
+      },
+      "pi": {
+        "trajectory": [
+          {
+            "age": 68,
+            "wealth": 880650.0,
+            "is_retired": true
+          },
+          {
+            "age": 69,
+            "wealth": 952025.0,
+            "is_retired": true
+          },
+          {
+            "age": 70,
+            "wealth": 1032499.0,
+            "is_retired": true
+          },
+          {
+            "age": 71,
+            "wealth": 1123405.0,
+            "is_retired": true
+          },
+          {
+            "age": 72,
+            "wealth": 1226273.0,
+            "is_retired": true
+          },
+          {
+            "age": 73,
+            "wealth": 1342867.0,
+            "is_retired": true
+          },
+          {
+            "age": 74,
+            "wealth": 1475212.0,
+            "is_retired": true
+          },
+          {
+            "age": 75,
+            "wealth": 1625643.0,
+            "is_retired": true
+          },
+          {
+            "age": 76,
+            "wealth": 1796842.0,
+            "is_retired": true
+          },
+          {
+            "age": 77,
+            "wealth": 1991898.0,
+            "is_retired": true
+          },
+          {
+            "age": 78,
+            "wealth": 2214365.0,
+            "is_retired": true
+          },
+          {
+            "age": 79,
+            "wealth": 2468333.0,
+            "is_retired": true
+          },
+          {
+            "age": 80,
+            "wealth": 2758507.0,
+            "is_retired": true
+          },
+          {
+            "age": 81,
+            "wealth": 3090305.0,
+            "is_retired": true
+          },
+          {
+            "age": 82,
+            "wealth": 3469960.0,
+            "is_retired": true
+          },
+          {
+            "age": 83,
+            "wealth": 3904646.0,
+            "is_retired": true
+          },
+          {
+            "age": 84,
+            "wealth": 4402622.0,
+            "is_retired": true
+          },
+          {
+            "age": 85,
+            "wealth": 4973391.0,
+            "is_retired": true
+          },
+          {
+            "age": 86,
+            "wealth": 5627894.0,
+            "is_retired": true
+          },
+          {
+            "age": 87,
+            "wealth": 6378721.0,
+            "is_retired": true
+          },
+          {
+            "age": 88,
+            "wealth": 7240366.0,
+            "is_retired": true
+          },
+          {
+            "age": 89,
+            "wealth": 8229510.0,
+            "is_retired": true
+          },
+          {
+            "age": 90,
+            "wealth": 9365356.0,
+            "is_retired": true
+          }
+        ],
+        "milestones": {
+          "60": 0,
+          "70": 1032499.0,
+          "80": 2758507.0,
+          "90": 9365356.0
+        },
+        "ending_wealth_age_90": 9365356.0,
+        "wealth_at_60": 0,
+        "wealth_at_70": 1032499.0,
+        "wealth_at_80": 2758507.0,
+        "is_exhausted": false
+      },
+      "opt": {
+        "trajectory": [
+          {
+            "age": 68,
+            "wealth": 1072075.0,
+            "is_retired": true
+          },
+          {
+            "age": 69,
+            "wealth": 1085093.0,
+            "is_retired": true
+          },
+          {
+            "age": 70,
+            "wealth": 1097333.0,
+            "is_retired": true
+          },
+          {
+            "age": 71,
+            "wealth": 1108695.0,
+            "is_retired": true
+          },
+          {
+            "age": 72,
+            "wealth": 1119073.0,
+            "is_retired": true
+          },
+          {
+            "age": 73,
+            "wealth": 1128352.0,
+            "is_retired": true
+          },
+          {
+            "age": 74,
+            "wealth": 1136407.0,
+            "is_retired": true
+          },
+          {
+            "age": 75,
+            "wealth": 1143105.0,
+            "is_retired": true
+          },
+          {
+            "age": 76,
+            "wealth": 1148300.0,
+            "is_retired": true
+          },
+          {
+            "age": 77,
+            "wealth": 1151836.0,
+            "is_retired": true
+          },
+          {
+            "age": 78,
+            "wealth": 1153544.0,
+            "is_retired": true
+          },
+          {
+            "age": 79,
+            "wealth": 1153242.0,
+            "is_retired": true
+          },
+          {
+            "age": 80,
+            "wealth": 1150735.0,
+            "is_retired": true
+          },
+          {
+            "age": 81,
+            "wealth": 1145811.0,
+            "is_retired": true
+          },
+          {
+            "age": 82,
+            "wealth": 1138242.0,
+            "is_retired": true
+          },
+          {
+            "age": 83,
+            "wealth": 1127785.0,
+            "is_retired": true
+          },
+          {
+            "age": 84,
+            "wealth": 1114176.0,
+            "is_retired": true
+          },
+          {
+            "age": 85,
+            "wealth": 1097130.0,
+            "is_retired": true
+          },
+          {
+            "age": 86,
+            "wealth": 1076343.0,
+            "is_retired": true
+          },
+          {
+            "age": 87,
+            "wealth": 1051487.0,
+            "is_retired": true
+          },
+          {
+            "age": 88,
+            "wealth": 1022210.0,
+            "is_retired": true
+          },
+          {
+            "age": 89,
+            "wealth": 988131.0,
+            "is_retired": true
+          },
+          {
+            "age": 90,
+            "wealth": 948844.0,
+            "is_retired": true
+          }
+        ],
+        "milestones": {
+          "60": 0,
+          "70": 1097333.0,
+          "80": 1150735.0,
+          "90": 948844.0
+        },
+        "ending_wealth_age_90": 948844.0,
+        "wealth_at_60": 0,
+        "wealth_at_70": 1097333.0,
+        "wealth_at_80": 1150735.0,
+        "is_exhausted": false
+      }
+    },
+    "stress_regimes": {
+      "gfc_2008": {
+        "name": "2008 Great Financial Crisis",
+        "ci": {
+          "pct_change": -31.48,
+          "post_val": 822300.0,
+          "dollar_loss": -377700.0
+        },
+        "pi": {
+          "pct_change": -38.26,
+          "post_val": 543728.0,
+          "dollar_loss": -336922.0
+        },
+        "opt": {
+          "pct_change": -16.32,
+          "post_val": 897059.0,
+          "dollar_loss": -175016.0
+        }
+      },
+      "covid_2020": {
+        "name": "2020 COVID Market Crash",
+        "ci": {
+          "pct_change": -17.25,
+          "post_val": 992950.0,
+          "dollar_loss": -207050.0
+        },
+        "pi": {
+          "pct_change": -10.93,
+          "post_val": 784366.0,
+          "dollar_loss": -96284.0
+        },
+        "opt": {
+          "pct_change": -6.89,
+          "post_val": 998236.0,
+          "dollar_loss": -73839.0
+        }
+      },
+      "stagflation_2022": {
+        "name": "2022 Stagflation & Rate Shock",
+        "ci": {
+          "pct_change": -14.05,
+          "post_val": 1031400.0,
+          "dollar_loss": -168600.0
+        },
+        "pi": {
+          "pct_change": -29.76,
+          "post_val": 618583.0,
+          "dollar_loss": -262067.0
+        },
+        "opt": {
+          "pct_change": -13.74,
+          "post_val": 924799.0,
+          "dollar_loss": -147276.0
+        }
+      }
+    },
+    "monte_carlo": {
+      "ci": {
+        "success_rate_pct": 96.6,
+        "p10_ending_wealth": 835275.0,
+        "median_ending_wealth": 4238608.0,
+        "p90_ending_wealth": 12029556.0
+      },
+      "pi": {
+        "success_rate_pct": 89.6,
+        "p10_ending_wealth": 0,
+        "median_ending_wealth": 5632300.0,
+        "p90_ending_wealth": 21763793.0
+      },
+      "opt": {
+        "success_rate_pct": 70.0,
+        "p10_ending_wealth": 0,
+        "median_ending_wealth": 563496.0,
+        "p90_ending_wealth": 2533292.0
+      }
+    },
+    "verdict": "DO NOT PROCEED with Proposed Investment (PI) as structured. High immediate transition drag of $319,350 (26.6% of wealth) requires 8.4 years to break even. Switch to LPL AI-Optimized Staged Strategy.",
+    "verdict_badge": "REJECT_PI_PROPOSAL",
+    "rationale": [
+      "Immediate tax penalty of $314,500 on lump-sum Roth conversion pushes client into highest marginal bracket.",
+      "Exiting Vanguard annuity triggers a $1,500 surrender fee for only a 0.25% return differential, taking 6.8 years just to recoup the penalty.",
+      "100% Nasdaq tilt elevates portfolio beta to 1.15 and downside maximum drawdown to -29.9%.",
+      "LPL AI-Optimized model breaks even in 0.8 years and delivers +$-8,416,512 higher net wealth at age 90."
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+Asset_Class_Code,Asset_Class_Name,CAGR_10Y,CAGR_5Y,CAGR_3Y,CAGR_1Y,Annualized_Volatility,Dividend_Yield,Beta,Max_Drawdown,Stress_2008_GFC,Stress_2020_COVID,Stress_2022_RateShock
+SP500,S&P 500 Index (Core US Equity),0.128,0.145,0.098,0.245,0.152,0.015,1.0,-0.239,-0.37,-0.196,-0.181
+NASDAQ100,Nasdaq-100 (Growth/Tech Equity),0.182,0.198,0.112,0.382,0.208,0.007,1.25,-0.326,-0.419,-0.12,-0.326
+US_AGG_BOND,US Aggregate Bond (Fixed Income),0.014,-0.002,-0.038,0.055,0.058,0.042,0.05,-0.13,0.052,0.075,-0.13
+VANGUARD_ANNUITY,Vanguard Lifetime Annuity,0.03,0.03,0.03,0.03,0.005,0.03,0.0,0.0,0.03,0.03,0.03
+FIDELITY_ANNUITY,Fidelity Fixed Annuity,0.0325,0.0325,0.0325,0.0325,0.005,0.0325,0.0,0.0,0.0325,0.0325,0.0325
+REAL_ESTATE,Private Real Estate / Fund of Funds,0.078,0.065,0.042,0.062,0.095,0.045,0.35,-0.142,-0.28,-0.085,-0.065
+CRYPTO_BTC,Cryptocurrency (BTC/ETH),0.485,0.362,0.155,1.25,0.65,0.0,2.1,-0.73,-0.65,-0.38,-0.64
+GOLD,Gold / Precious Metals,0.082,0.115,0.092,0.165,0.138,0.0,0.05,-0.152,0.058,0.244,-0.008
+CASH_TREASURY,Short-Term Treasury / Cash,0.021,0.025,0.042,0.052,0.006,0.05,0.0,0.0,0.018,0.008,0.015
+DIVIDEND_VALUE,Dividend Aristocrats / Quality Value,0.108,0.118,0.082,0.185,0.135,0.035,0.82,-0.185,-0.26,-0.165,-0.065
